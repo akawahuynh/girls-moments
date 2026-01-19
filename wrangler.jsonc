@@ -22,7 +22,8 @@
 			"id": "451e366341ec44bb89cb87ebf3a28236",
 			"localConnectionString": "postgres://root:mysecretpassword@localhost:5432/local"
 		}
-	]
+	],
+	"routes": [{ "custom_domain": true, "pattern": "girlsmoment.com" }]
 
 	/**
 	 * Smart Placement
