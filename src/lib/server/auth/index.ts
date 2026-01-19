@@ -94,7 +94,8 @@ export const getAuth = (db: DB) =>
 
 		// https://www.better-auth.com/docs/authentication/email-password
 		emailAndPassword: {
-			enabled: true
+			enabled: true,
+			disableSignUp: true
 		},
 
 		experimental: {
